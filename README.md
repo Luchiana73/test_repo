@@ -25,3 +25,20 @@ This gives you time to decide on the best course of action for incorporating you
 
 Git fetch is a bit different; you can use the Git fetch command to see all of the remote’s changes without applying them. This action can be great if you’re newer to Git, as it provides more visibility about the changes being introduced. On the other hand, fetch might also be preferred by Git veterans who just want more control over what’s happening in their repo.
 ***
+
+### _GIT commit --amend__
+
+Git commit –amend command can be used to modify the last commit. The old commit is replaced with a new commit which means that when you amend your old commit it will no longer be visible in the project history.
+
+This command can be used without the -m flag. In that case, an interactive text editor will be opened up in which you can replace the message from the previous commit.
+
+If you’d like to use the -m flag here’s an example of what that would look like.
+
+*git commit --amend -m “commit message”*
+
+To change the files in a last commit, first add the files you want to be included in your commit: *git add* or remove the files from the commit: *gir rm*,
+
+and then
+*git commit --amend --no-edit(without updating the commit message)*
+
+**Git --amend command is very very useful, it can help to keep the commit history clean.**
