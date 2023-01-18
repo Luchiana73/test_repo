@@ -3,6 +3,8 @@
 
 ### Note from Sveta
 
+### One more note for Sveta
+
 #### _GIT pull_
 
 Git pull is a command that allows you to fetch from and integrate with another repository or local branch.
