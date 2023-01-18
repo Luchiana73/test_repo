@@ -1,2 +1,2 @@
-const x = 8;
-const y = 3;
+const x = 20;
+const y = 12;
